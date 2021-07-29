@@ -5,9 +5,7 @@ import EditUserForm from "./forms/EditUserForm";
 
 const App = () => {
   const usersData = [
-    { id: 1, name: "quan", age: "18", adress: "hanoi", sex: "nam", date: "9-6-1996"},
-    { id: 2, name: "yua", age: "27", adress: "japan", sex: "nu", date: "9-6-1993" },
-    { id: 3, name: "mikami", age: "19", adress: "japan", sex: "nu", date: "9-6-1996" }
+    { id: 1, name: "", age: "", adress: "", sex: "", date: ""}
   ];
 
 

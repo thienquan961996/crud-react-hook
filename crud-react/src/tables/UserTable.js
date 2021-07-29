@@ -4,6 +4,7 @@ const UserTable = props => (
   <table>
     <thead>
       <tr>
+        <th>index</th>
         <th>Name</th>
         <th>age</th>
         <th>adress</th>
@@ -16,6 +17,7 @@ const UserTable = props => (
       {props.users.length > 0 ? (
         props.users.map(user => (
           <tr key={user.id}>
+            <td>{user.id}</td>
             <td>{user.name}</td>
             <td>{user.age}</td>
             <td>{user.adress}</td>
@@ -39,7 +41,7 @@ const UserTable = props => (
         ))
       ) : (
         <tr>
-          <td colSpan={3}>No users</td>
+          <td>No users</td>
         </tr>
       )}
     </tbody>
